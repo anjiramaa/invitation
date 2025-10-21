@@ -1,0 +1,22 @@
+/* assets/css/custom.css
+ * Version: 2025-10-15_v1
+ * Custom styles (separate file). Use Tailwind for utility-first styling.
+ */
+
+/* Basic overrides and some custom classes */
+.site-brand { font-weight: 700; letter-spacing: -0.5px; }
+.sidebar { min-height: 100vh; }
+.sidebar .nav-item.active { background-color: rgba(15,23,42,0.06); border-left: 3px solid #0f172a; }
+.card-shadow { box-shadow: 0 10px 30px rgba(2,6,23,0.06); border-radius: 12px; }
+.kpi { font-weight: 700; font-size: 1.75rem; }
+.footer-small { font-size: 0.9rem; color: #6b7280; }
+
+/* make tables nicer */
+.table-modern th { text-align: left; font-weight: 600; background: #f8fafc; padding: .75rem; }
+.table-modern td { padding: .6rem; }
+
+/* responsive tweaks */
+@media (max-width: 768px) {
+  .sidebar { display: none; }
+  .mobile-show-sidebar { display: block; }
+}

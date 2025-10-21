@@ -1,0 +1,5 @@
+/* assets/css/template.css
+ * Version: 2025-10-17_v1
+ * Minor styles for template editor
+ */
+.template-editor { min-height: 300px; border: 1px solid #e6e9ef; padding: 12px; border-radius: 8px; background: #fff; }
